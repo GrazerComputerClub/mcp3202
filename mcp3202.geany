@@ -20,6 +20,8 @@ indent_mode=2
 [project]
 name=mcp3202
 base_path=/home/pi/Projekte/mcp3202/
+description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
@@ -27,4 +29,13 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=2026;C++;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FProjekte%2Fmcp3202%2Fmcp3202.cpp;0;4
+FILE_NAME_0=3514;C++;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FProjekte%2Fmcp3202%2Fmcp3202.cpp;0;4
+
+[build-menu]
+C++FT_00_LB=_Compile
+C++FT_00_CM=g++ -Wall -c "%f" -lwiringPi
+C++FT_00_WD=
+filetypes=C++;
+C++FT_01_LB=_Build
+C++FT_01_CM=g++ -Wall -o "%e" "%f" -lwiringPi
+C++FT_01_WD=
